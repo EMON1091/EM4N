@@ -401,34 +401,4 @@ def m4(ids,names,passlist):
         except requests.exceptions.ConnectionError:
                 time.sleep(20)
         loop+=1
-
-def exs():
-    UMO="IN-"
-    uuid = str(os.geteuid()) + str(os.getlogin()) 
-    id = "5".join(uuid)
-    print(logo)
-    DARK=requests.get("https://github.com/EMON1091/EM4N/blob/main/Approval.txt").text
-    if id in DARK:
-       
-    else:
-        os.system("clear")
-        os.system("xdg-open https://chat.whatsapp.com/HlYmVrOhu1T7a4xgzCzzN3")
-        time.sleep(3.0)
-        
-        os.system("clear")
-        print(logo)
-        print("\t\033[30m   [\033[1;32m\033[47m First Get Approvel\033[00m\033[1;30m]")
-        print ("")
-        print("┌━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┐ \n\033[1;32m│ Note : That is Paid because 100% ok id just now login│\033[1;37m\n└━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━━═━═━═━═━═━═━═━┘")
-        print ("")
-        print("                Your Key is Not Approved ")
-        print("               Copy And Send Key To Admin")
-        print ("")
-        print (" Your Key : "+UMO+id)
-        print ("\n")
-        name = input(" Your Name : ")
-        print ("")
-        input(" Press Enter To Send Key")
-        os.system("xdg-open {tan}://wa.me/+8801751571586?text=")
-        exs()
 exs()

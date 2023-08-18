@@ -174,7 +174,7 @@ def exs():
 	print(f" [\033[1;31m0\033[1;37m] Exit")
 	me=input(f' [\033[1;32m✓\033[1;37m] Choice : ')
 	if me in ["2", "02"]:
-	    os.system('python EMON-143-BACKUP.py')
+	    os.system('python EXS-143.py')
      
 	#if me in ["3","03"]:
 		#gml()

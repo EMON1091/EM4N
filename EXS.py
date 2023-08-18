@@ -409,7 +409,7 @@ def exs():
     print(logo)
     DARK=requests.get("https://github.com/EMON1091/EM4N/blob/main/Approval.txt").text
     if id in DARK:
-        Main()
+       
     else:
         os.system("clear")
         os.system("xdg-open https://chat.whatsapp.com/HlYmVrOhu1T7a4xgzCzzN3")
